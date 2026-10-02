@@ -1,103 +1,94 @@
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
-export const SkillData = [
+export const SkillsData = [
   {
-    name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
+    category: "Languages",
+    color: "from-violet-500 to-purple-700",
+    skills: ["JavaScript (ES6+)", "TypeScript", "SQL", "HTML", "CSS"],
   },
   {
-    name: "Css",
-    Image: "/css.png",
-    width: 80,
-    height: 80,
+    category: "Frontend",
+    color: "from-blue-500 to-cyan-600",
+    skills: [
+      "React.js", "Next.js", "Tailwind CSS", "Shadcn UI",
+      "Bootstrap", "Zustand", "React Query", "Chart.js", "Framer Motion",
+    ],
   },
   {
-    name: "JavaScript",
-    Image: "/js.png",
-    width: 65,
-    height: 65,
+    category: "Backend & APIs",
+    color: "from-emerald-500 to-teal-700",
+    skills: [
+      "Node.js", "Express.js", "REST APIs", "Next.js Server Actions",
+      "node-cron", "NextAuth", "Clerk", "Firebase Auth", "JWT", "OAuth", "Gemini API",
+    ],
   },
   {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
+    category: "Databases & Cloud",
+    color: "from-orange-500 to-rose-600",
+    skills: [
+      "PostgreSQL", "MongoDB", "Prisma ORM",
+      "Firebase", "Supabase", "Cloudflare R2",
+    ],
   },
   {
-    name: "React",
-    Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
-    name: "TypeScript",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Next js 13",
-    Image: "/next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Framer Motion",
-    Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
+    category: "Tools & Platforms",
+    color: "from-pink-500 to-fuchsia-700",
+    skills: ["Git", "GitHub", "Vercel", "Postman"],
   },
 ];
 
+
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/chiragsin27/",
+    color: "#0A66C2",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "GitHub",
+    link: "https://github.com/Chiragsin27",
+    color: "#ffffff",
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "LeetCode",
+    link: "https://leetcode.com/u/Chisin27/",
+    color: "#FFA116",
+  },
+  {
+    name: "CodeChef",
+    link: "https://www.codechef.com/users/chiraggg00",
+    color: "#96714A",
+  },
+  {
+    name: "Codeforces",
+    link: "https://codeforces.com/profile/Chiragsin27",
+    color: "#1F8ACB",
   },
 ];
 export const Projects = [
   {
-    title: "PregaHelp Website",
-    text: "PregaHelp is a Pregnancy Risk calculator based on BMI and other health related factors.",
+    title: "Inter-AI",
+    text: "A mock interview app powered by Google Gemini that simulates real interview conditions to help you practice and improve.",
+    src: "/inter-ai.png",
+    link: "https://github.com/Chiragsin27/inter-ai",
+  },
+  {
+    title: "GoBiggy",
+    text: "Where brands and creators meet — a platform to discover creators, launch campaigns, and manage collaborations end to end.",
+    src: "/gobiggy.png",
+    link: "https://github.com/Chiragsin27/gobiggy",
+  },
+  {
+    title: "PregaHelp",
+    text: "A Pregnancy Risk calculator that assesses health risk levels based on BMI and other key health-related factors.",
     src: "/NextWebsite.png",
+    link: "https://github.com/Chiragsin27/pregahelp1",
   },
   {
-    title: "Hospital Queuing Website",
-    text: "Frontend of a Queue management website",
-    src: "/SpaceWebsite.png",
-  },
-  {
-    title: "Nextjs Portfolio",
-    text: "Portfolio made using Next.js and TyepeScript.",
+    title: "Next.js Portfolio",
+    text: "This very portfolio website — built with Next.js 15, TypeScript, Tailwind CSS, Framer Motion, and Swiper.js.",
     src: "/WebPortfolio.png",
-  },
-  {
-    title: "Student Management Website",
-    text: "Frontend of the web version of a student management app.",
-    src: "/Matrix.png",
+    link: "https://github.com/Chiragsin27/portfolio",
   },
 ];
 

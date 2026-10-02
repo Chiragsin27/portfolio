@@ -22,12 +22,14 @@ export default function Home() {
             I am a Computer Science & Engineering student and I`m really into Full Stack Web Development.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
-            <Link
-              href="/my-skills"
+            <a
+              href="https://drive.google.com/file/d/1z9fzmigLqz4_RZGzAtuI_nYItOz2f2Ex/view"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              Learn more
-            </Link>
+              View Resume
+            </a>
             <Link
               href="/my-projects"
               className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
@@ -47,12 +49,14 @@ export default function Home() {
       </div>
 
       <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
-        <Link
-          href="/my-skills"
+        <a
+          href="https://drive.google.com/file/d/1z9fzmigLqz4_RZGzAtuI_nYItOz2f2Ex/view"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
         >
-          Learn more
-        </Link>
+          View Resume
+        </a>
 
         <Link
           href="/my-projects"
